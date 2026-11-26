@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard · Latchly</title><meta name="description" content="Latchly makes signing in safe, quick and a little less annoying.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Crect width='10' height='10' rx='3' fill='%230F6B6B'/%3E%3Ccircle cx='5' cy='5' r='2' fill='%23F0B44C'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head><body data-page="dashboard">
+<header><div class="wrap bar"><a class="logo" href="index.html"><i></i>Latchly</a>
+<button id="menu" class="btn sm" aria-label="Menu" aria-expanded="false">Menu</button>
+<nav><a href="index.html">Home</a><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="btn sm" href="login.html">Log in</a><a class="btn sm pri" href="signup.html">Get started</a></nav></div></header>
+<main><section><div class="wrap"><div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px"><div><h1 style="font-size:2.2rem">Hi, <span id="user"></span></h1><p class="small">Your account looks healthy.</p></div><button class="btn" id="logout">Log out</button></div><div class="grid" style="margin:24px 0"><div class="card"><h3>Security score</h3><div class="price">92<small>/100</small></div></div><div class="card"><h3>Passkey</h3><label><input type="checkbox" data-sw="Passkey" checked style="width:auto"> Enabled</label></div><div class="card"><h3>Two-step codes</h3><label><input type="checkbox" data-sw="Two-step codes" style="width:auto"> Enabled</label></div></div><div class="card"><h3>Where you’re signed in</h3><div style="overflow-x:auto"><table><tr><th>Device</th><th>Place</th><th>Last active</th><th></th></tr><tr><td>MacBook, Chrome</td><td>Jaipur, IN</td><td>Now</td><td><span class="tag">This device</span></td></tr><tr><td>iPhone, Safari</td><td>Jaipur, IN</td><td>2 hours ago</td><td><button class="btn sm" data-revoke>Sign out</button></td></tr><tr><td>Windows, Edge</td><td>Delhi, IN</td><td>3 days ago</td><td><button class="btn sm" data-revoke>Sign out</button></td></tr></table></div></div></div></section></main>
+<footer><div class="wrap fcols"><div><a class="logo" href="index.html"><i></i>Latchly</a><span class="small">Sign-in that feels easy and stays safe.</span></div>
+<div><b>Product</b><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="login.html">Live demo</a></div>
+<div><b>Company</b><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+<div><b>Legal</b><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
+<div class="wrap small" style="margin-top:28px">© 2026 Latchly. Demo site, no real accounts are created.</div></footer>
+<script src="assets/app.js"></script></body></html>
